@@ -200,8 +200,11 @@ blockquote {
         font-size: 1.4rem;
     }
     .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         max-width: 80em;
         margin: 0 auto;
+        gap: 2rem;
     }
     header h1 {
         font-size: 6em;
